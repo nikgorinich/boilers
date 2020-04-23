@@ -1,0 +1,23 @@
+// Настройки шрифтов
+@import "fonts";
+
+// Переменные
+@import "vars";
+
+// Библиотеки
+@import "libs";
+
+// Базовые настройки
+@import "base";
+
+// Секции
+@import "sections/header";
+@import "sections/hero";
+@import "sections/categories-products";
+@import "sections/new-products";
+@import "sections/services";
+@import "sections/hit-products";
+@import "sections/articles";
+@import "sections/about";
+@import "sections/brands";
+@import "sections/footer";

@@ -1,0 +1,11 @@
+.hit-slider {
+	margin-right: -15px;
+	margin-left: -15px;
+	&__item {
+		margin: 15px 0;
+	}
+	&__column {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+}

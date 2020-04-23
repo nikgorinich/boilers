@@ -1,0 +1,174 @@
+.footer {
+	position: relative;
+	&__content {
+		padding: 55px 0;
+	}
+	&__top-row {
+		display: flex;
+		justify-content: space-between;
+	}
+	&__bottom-row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 65px;
+	}
+	&__column--1 {
+		width: 200px;
+	}
+	&__column--2 {
+		width: 135px;
+	}
+	&__column--3 {
+		width: 275px;
+	}
+	&__column--4 {
+		width: 252px;
+	}
+	&__copy {
+		background-color: #2d2d2d;
+	}
+	&__text {
+		display: flex;
+		align-items: center;
+		height: 50px;
+		font-size: 15px;
+		color: #fff;
+	}
+}
+
+//<--- Scrollup
+.scrollup {
+	display: flex;
+	align-items: center;
+	width: 160px;
+	height: 50px;
+	position: absolute;
+	right: 55px;
+	bottom: 174px;
+	transform: rotate(-90deg);
+	&__link {
+		background: url(../img/top-arrow.png) no-repeat center;
+		background-color: $accent;
+		width: 50px;
+		height: 50px;
+		border: 4px #eaeaea solid;
+		border-radius: 50%;
+		transition: all .3s;
+		&:hover {
+			border-color: $accent;
+		}
+	}
+	&__desc {
+		padding-right: 10px;
+		font-size: 10px;
+		font-weight: 700;
+		line-height: 43px;
+		text-transform: uppercase;
+		color: #2d2d2d;
+	}
+}
+//---> End Scrollup
+
+.footer-menu {
+	&__link {
+		font-size: 15px;
+		color: $text;
+		text-decoration: underline;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+	&__info {
+		position: relative;
+		margin: 0;
+		padding-left: 22px;
+		font-size: 15px;
+		color: $text;
+	}
+	&__graph {
+		line-height: 1.75;
+		&:before {
+			position: absolute;
+			content: url(../img/graph-icon.png);
+			top: 0;
+			left: 0;
+		}
+	}
+	&__address {
+		line-height: 1.75;
+		&:before {
+			position: absolute;
+			content: url(../img/marker-icon.png);
+			top: 0;
+			left: 2px;
+		}
+	}
+	&__phone {
+		font-weight: 500;
+		&:before {
+			position: absolute;
+			content: url(../img/phone-icon.png);
+			top: 0;
+			left: 2px;
+		}
+	}
+	&__call {
+		font-size: 15px;
+		font-weight: 500;
+		line-height: 1.4;
+		color: $accent;
+		border-bottom: 1px solid $accent;
+		transition: all .25s ease;
+		&:hover {
+			border-bottom: 1px solid transparent;
+		}
+	}
+}
+
+.payment-block {
+	display: flex;
+	flex-wrap: wrap;
+	&__item {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-left: 6px;
+		margin-bottom: 6px;
+		width: 78px;
+		height: 46px;
+		border: #dcdcdc solid 1px;
+	}
+}
+
+.social-nav {
+  &__link {
+		&--telegram-footer {
+			background: url(../img/telegram-w.png) no-repeat;
+			width: 20px;
+			height: 19px;
+			transition: all .5s ease;
+			&:hover {
+				background: url(../img/telegram-icon.png) no-repeat;
+			}
+		}
+		&--viber-footer {
+			background: url(../img/viber-w.png) no-repeat;
+			width: 20px;
+			height: 19px;
+			transition: all .5s ease;
+			&:hover {
+				background: url(../img/viber-icon.png) no-repeat;
+			}
+		}
+		&--whatsapp-footer {
+			background: url(../img/whatsapp-w.png) no-repeat;
+			width: 20px;
+			height: 19px;
+			transition: all .5s ease;
+			&:hover {
+				background: url(../img/whatsapp-icon.png) no-repeat;
+			}
+		}
+	}
+}

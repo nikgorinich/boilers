@@ -1,0 +1,1255 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+<head>
+  <!-- Кодировка страницы -->
+  <meta charset="UTF-8">
+  <!-- Адаптив -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Заголовок страницы в браузере -->
+  <title>ИМ котлы</title>
+  <!-- Подкючаем CSS -->
+  <link rel="stylesheet" href="css/style.min.css">
+  <!-- Иконка в браузере -->
+  <link rel="shortcut icon" href="favicon.ico">
+</head>
+<!-- Отображаемое тело страницы -->
+<body>
+  <header class="header">
+    <div class="header-topbar">
+      <div class="container">
+        <div class="dmenu">
+          <nav class="dmenu-nav">
+            <ul class="dmenu-nav__list">
+              <li class="dmenu-nav__item">
+                <a href="#" class="dmenu-nav__link">Доставка и оплата</a>
+              </li>
+              <li class="dmenu-nav__item">
+                <a href="#about" class="dmenu-nav__link">О компании</a>
+              </li>
+              <li class="dmenu-nav__item">
+                <a href="#" class="dmenu-nav__link">Отзывы о нас</a>
+              </li>
+              <li class="dmenu-nav__item">
+                <a href="#footer" class="dmenu-nav__link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="#" class="dmenu-link">Заказать обратный звонок</a>
+          <div class="dmenu-right">
+            <ul class="dmenu-right__list">
+              <li class="dmenu-right__item">
+                <a href="#" class="dmenu-right__link ">
+                  <div class="dmenu-right__icon dmenu-right__icon--heart">0</div>
+                </a>
+              </li>
+              <li class="dmenu-right__item">
+                <a href="#" class="dmenu-right__link">
+                  <div class="dmenu-right__icon dmenu-right__icon--compare">0</div>
+                </a>
+              </li>
+              <li class="dmenu-right__item">
+                <a href="#" class="dmenu-right__link">
+                  <div class="dmenu-right__icon dmenu-right__icon--enter">Вход для клиентов</div>
+                </a>
+              </li>
+            </ul>
+          </div>  
+        </div>
+      </div>
+    </div>
+    <div class="header-navbar">
+      <div class="container">
+        <div class="header-navbar__top">
+          <div class="logo">
+            <img src="img/logo.png" alt="Логотип сайта" class="logo__image">
+          </div>
+          <div class="header-navbar__center-block">
+            <div class="graph">
+              <a href="mailto:info@domen.by" class="graph__email">info@domen.by</a>
+              <span class="graph__work-time">Пн-Пт с 10:00 до 19:00</span>
+            </div>
+            <div class="phone">
+              <div class="phone__contacts">
+                <a href="tel:37(529)844-80-48" class="phone__contact">+37 (529) 844-80-48</a>
+                <a href="tel:37(529)844-80-48" class="phone__contact">+37 (529) 844-80-48</a>
+              </div>
+            </div>
+            <div class="search">
+              <form class="form search__form" role="search" method="get" action="#">
+                <div class="form__input-group">
+                  <input class="form__input-control" type="search" placeholder="Поиск по сайту">
+                  <button class="form__btn-search" type="submit"></button>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="cart">
+            <div class="cart__left-block">
+              <a href="#" class="cart__btn">
+                <span class="cart__icon"></span>
+                <span class="cart__number">0</span>
+              </a>
+            </div>
+            <div class="cart__right-block">
+              <span class="cart__title">Корзина</span>
+              <span class="cart__subtitle">на <span class="cart__subtitle--green">0</span> руб</span>
+            </div>
+          </div>
+        </div>
+        <div class="header-navbar__bottom">
+          <div class="dropdown">
+            <nav class="dropdown__nav">
+              <ul class="dropdown__list">
+                <li class="dropdown__item">
+                  <button class="btn btn--primary header-navbar__btn">Каталог товаров</button>
+                  <ul class="dropdown__menu">
+                    <li class="dropdown__item dropdown__submenu">
+                      <a href="#" class="dropdown__link dropdown__link--disc dropdown__link--arrow">Котлы отопления</a>
+                      <ul class="dropdown__menu">
+                        <li class="dropdown__item">
+                          <a href="#" class="dropdown__link dropdown__sub-link">Газовые</a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a href="#" class="dropdown__link dropdown__sub-link dropdown__link--arrow">Твердотоплевные</a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a href="#" class="dropdown__link dropdown__sub-link">Электрические</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown__item dropdown__submenu">
+                      <a href="#" class="dropdown__link dropdown__link--disc dropdown__link--arrow">Водонагреватели</a>
+                      <ul class="dropdown__menu">
+                        <li class="dropdown__item">
+                          <a href="#" class="dropdown__link dropdown__sub-link">Газовые</a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a href="#" class="dropdown__link dropdown__sub-link dropdown__link--arrow">Электрические</a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a href="#" class="dropdown__link dropdown__sub-link">Накопительные</a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a href="#" class="dropdown__link dropdown__sub-link">Проточные</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown__item dropdown__submenu">
+                      <a href="#" class="dropdown__link dropdown__link--disc dropdown__link--arrow">Радиаторы</a>
+                      <ul class="dropdown__menu">
+                        <li class="dropdown__item">
+                          <a href="#" class="dropdown__link dropdown__sub-link">Алюминиевые</a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a href="#" class="dropdown__link dropdown__sub-link dropdown__link--arrow">Металлические</a>
+                        </li>
+                        <li class="dropdown__item">
+                          <a href="#" class="dropdown__link dropdown__sub-link">Чугунные</a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="dropdown__item">
+                      <a href="#" class="dropdown__link dropdown__link--disc dropdown__link--arrow">Водяные насосы</a>
+                    </li>
+                    <li class="dropdown__item">
+                      <a href="#" class="dropdown__link dropdown__link--disc dropdown__link--arrow">Теплый пол</a>
+                    </li>
+                    <li class="dropdown__item">
+                      <a href="#" class="dropdown__link dropdown__link--disc dropdown__link--arrow">Печи и камины</a>
+                    </li>
+                    <li class="dropdown__item">
+                      <a href="#" class="dropdown__link dropdown__link--disc dropdown__link--arrow">Комплектующие</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="navbar">
+            <nav class="navbar-nav">
+              <ul class="navbar-nav__list">
+                <li class="navbar-nav__item">
+                  <a href="#hit-products" class="navbar-nav__link">Хиты продаж</a>
+                </li>
+                <li class="navbar-nav__item">
+                  <a href="#new-products" class="navbar-nav__link">Новинки</a>
+                </li>
+                <li class="navbar-nav__item">
+                  <a href="#" class="navbar-nav__link">Акции</a>
+                </li>
+                <li class="navbar-nav__item">
+                  <a href="#services" class="navbar-nav__link">Услуги</a>
+                </li>
+                <li class="navbar-nav__item">
+                  <a href="#" class="navbar-nav__link">Наши работы</a>
+                </li>
+                <li class="navbar-nav__item">
+                  <a href="#footer" class="navbar-nav__link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="social">
+            <nav class="social-nav">
+              <ul class="social-nav__list">
+                <li class="social-nav__item">
+                  <a href="#" class="social-nav__link--telegram"></a>
+                </li>
+                <li class="social-nav__item">
+                  <a href="#" class="social-nav__link--viber"></a>
+                </li>
+                <li class="social-nav__item">
+                  <a href="#" class="social-nav__link--whatsapp"></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- /.header -->
+  <main>
+    <section class="hero">
+      <div class="hero-slider">
+        <div class="hero-slider__item" style="background-image: url(img/hero-bg.jpg);">
+          <div class="container">
+            <div class="hero-slider__content">
+              <h1 class="hero-slider__title">Котлы от ведущих <br>производителей</h1>
+              <p class="hero-slider__subtitle">Бесплатная доставка по всей стране</p>
+              <button class="btn btn--primary hero-slider__btn"><span class="hero-slider__text">Перейти в каталог</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="hero-slider__item" style="background-image: url(img/hero-bg.jpg);">
+          <div class="container">
+            <div class="hero-slider__content">
+              <h1 class="hero-slider__title">Котлы от ведущих <br>производителей</h1>
+              <p class="hero-slider__subtitle">Бесплатная доставка по всей стране</p>
+              <button class="btn btn--primary hero-slider__btn"><span class="hero-slider__text">Перейти в каталог</span></button>
+            </div>
+          </div>
+        </div>
+        <div class="hero-slider__item" style="background-image: url(img/hero-bg.jpg);">
+          <div class="container">
+            <div class="hero-slider__content">
+              <h1 class="hero-slider__title">Котлы от ведущих <br>производителей</h1>
+              <p class="hero-slider__subtitle">Бесплатная доставка по всей стране</p>
+              <button class="btn btn--primary hero-slider__btn"><span class="hero-slider__text">Перейти в каталог</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.hero -->
+    <section class="categories-products">
+      <div class="container">
+        <div class="categories-products__row">
+          <div class="categories-products__item">
+            <a href="#" class="product product__top-line">
+              <div class="product__inner">
+                <img src="img/categories-products-1.png" alt="Image" class="product__image">
+              </div>
+              <h5 class="product__title">Котлы отопления</h5>
+            </a>
+          </div>
+          <div class="categories-products__item">
+            <a href="#" class="product product__top-line">
+              <div class="product__inner">
+                <img src="img/categories-products-2.png" alt="Image" class="product__image">
+              </div>
+              <h5 class="product__title">Водонагреватели</h5>
+            </a>
+          </div>
+          <div class="categories-products__item">
+            <a href="#" class="product product__top-line">
+              <div class="product__inner">
+                <img src="img/categories-products-3.png" alt="Image" class="product__image">
+              </div>
+              <h5 class="product__title">Радиаторы</h5>
+            </a>
+          </div>
+          <div class="categories-products__item">
+            <a href="#" class="product product__top-line">
+              <div class="product__inner">
+                <img src="img/categories-products-4.png" alt="Image" class="product__image">
+              </div>
+              <h5 class="product__title">Насосы</h5>
+            </a>
+          </div>
+        </div>
+        <div class="categories-products__row">
+          <div class="categories-products__item">
+            <a href="#" class="product product__bottom-line">
+              <div class="product__inner">
+                <img src="img/categories-products-5.png" alt="Image" class="product__image">
+              </div>
+              <h5 class="product__title">Теплый пол</h5>
+            </a>
+          </div>
+          <div class="categories-products__item">
+            <a href="#" class="product product__bottom-line">
+              <div class="product__inner">
+                <img src="img/categories-products-6.png" alt="Image" class="product__image">
+              </div>
+              <h5 class="product__title">Печи, камины</h5>
+            </a>
+          </div>
+          <div class="categories-products__item">
+            <a href="#" class="product product__bottom-line">
+              <div class="product__inner">
+                <img src="img/categories-products-7.png" alt="Image" class="product__image">
+              </div>
+              <h5 class="product__title">Комплектующие</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.categories-products -->
+    <section class="section section--s new-products" id="new-products">
+      <div class="container">
+        <div class="section-head section__head section__head--s">
+          <div class="section-head__left">
+            <h2 class="section__title">Новинки нашего каталога</h2>
+            <p class="section__subtitle">Обратите внимание на последние поступления</p>
+          </div>
+          <div class="section-head__right section-head__right--new">
+            <button class="btn btn--outline section-head__btn">Все новинки</button>
+          </div>
+        </div>
+        <div class="new-slider">
+          <div class="new-slider__item">
+            <div class="new-slider__column">
+              <div class="product-card">
+                <div class="product-card__inner">
+                  <img src="img/new-products-1.png" alt="Image" class="product-card__image">
+                </div>
+                <div class="product-card__info">
+                  <h5 class="product-card__name">
+                    <a href="#" class="product-card__link">Газовый котел Ariston Clas X System 32 FF с трехходовым клапаном и датчиком бойлера в комплекте</a>
+                  </h5>
+                  <div class="product-card__info-block">
+                    <div class="product-card__favorites">
+                      <a href="#" class="product-card__wishlist-icon" title="Добавить в избранное"></a>
+                    </div>
+                    <div class="product-card__reting">
+                      <ul class="reting reting__list">
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-half.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-o.png" alt="" class="reting__star-icon">
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="product-card__compare">
+                      <a href="#" class="product-card__compare-icon" title="Добавить в сравнение"></a>
+                    </div>
+                  </div>
+                  <div class="product-card__info-block">
+                    <div class="product-card__price">
+                      <span class="product-card__price-old">2 250 &#8381;</span>
+                      <span class="product-card__price-new">1 500 &#8381;</span>
+                    </div>
+                    <button class="btn btn--primary product-card__cart-btn" title="Добавить в корзину">В корзину</button>
+                  </div>
+                  <div class="label product-card__label">
+                    <div class="label--1">
+                      <img src="img/label-new.png" alt="" class="label__icon">
+                    </div>
+                    <div class="label--2">
+                      <img src="img/label-stock.png" alt="" class="label__icon">
+                    </div>
+                    <div class="label--3">
+                      <img src="img/label-hit.png" alt="" class="label__icon">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="new-slider__item">
+            <div class="new-slider__column">
+              <div class="product-card">
+                <div class="product-card__inner">
+                  <img src="img/new-products-1.png" alt="Image" class="product-card__image">
+                </div>
+                <div class="product-card__info">
+                  <h5 class="product-card__name">
+                    <a href="#" class="product-card__link">Газовый котел Ariston Clas X System 24 FF</a>
+                  </h5>
+                  <div class="product-card__info-block">
+                    <div class="product-card__favorites">
+                      <a href="#" class="product-card__wishlist-icon" title="Добавить в избранное"></a>
+                    </div>
+                    <div class="product-card__reting">
+                      <ul class="reting reting__list">
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-o.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-o.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-o.png" alt="" class="reting__star-icon">
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="product-card__compare">
+                      <a href="#" class="product-card__compare-icon" title="Добавить в сравнение"></a>
+                    </div>
+                  </div>
+                  <div class="product-card__info-block">
+                    <div class="product-card__price">
+                      <span class="product-card__price-new">6 500 &#8381;</span>
+                    </div>
+                    <button class="btn btn--primary product-card__cart-btn" title="Добавить в корзину">В корзину</button>
+                  </div>
+                  <div class="label product-card__label">
+                    <div class="label--1">
+                      <img src="img/label-new.png" alt="" class="label__icon">
+                    </div>
+                    <div class="label--2">
+                      <img src="img/label-stock.png" alt="" class="label__icon">
+                    </div>
+                    <div class="label--3">
+                      <img src="img/label-hit.png" alt="" class="label__icon">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="new-slider__item">
+            <div class="new-slider__column">
+              <div class="product-card">
+                <div class="product-card__inner">
+                  <img src="img/new-products-1.png" alt="Image" class="product-card__image">
+                </div>
+                <div class="product-card__info">
+                  <h5 class="product-card__name">
+                    <a href="#" class="product-card__link">Газовый котел Ariston Clas X System 32 FF с трехходовым клапаном и датчиком бойлера в комплекте</a>
+                  </h5>
+                  <div class="product-card__info-block">
+                    <div class="product-card__favorites">
+                      <a href="#" class="product-card__wishlist-icon" title="Добавить в избранное"></a>
+                    </div>
+                    <div class="product-card__reting">
+                      <ul class="reting reting__list">
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="product-card__compare">
+                      <a href="#" class="product-card__compare-icon" title="Добавить в сравнение"></a>
+                    </div>
+                  </div>
+                  <div class="product-card__info-block">
+                    <div class="product-card__price">
+                      <span class="product-card__price-new">9 500 &#8381;</span>
+                    </div>
+                    <button class="btn btn--primary product-card__cart-btn" title="Добавить в корзину">В корзину</button>
+                  </div>
+                  <div class="label product-card__label">
+                    <div class="label--1">
+                      <img src="img/label-stock.png" alt="" class="label__icon">
+                    </div>
+                    <div class="label--2">
+                      <img src="img/label-hit.png" alt="" class="label__icon">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="new-slider__item">
+            <div class="new-slider__column">
+              <div class="product-card">
+                <div class="product-card__inner">
+                  <img src="img/new-products-1.png" alt="Image" class="product-card__image">
+                </div>
+                <div class="product-card__info">
+                  <h5 class="product-card__name">
+                    <a href="#" class="product-card__link">Газовый котел Ariston Clas X System 24 FF</a>
+                  </h5>
+                  <div class="product-card__info-block">
+                    <div class="product-card__favorites">
+                      <a href="#" class="product-card__wishlist-icon" title="Добавить в избранное"></a>
+                    </div>
+                    <div class="product-card__reting">
+                      <ul class="reting reting__list">
+                        <li class="reting__item">
+                          <img src="img/star-two-thirds.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-o.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-o.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-o.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-o.png" alt="" class="reting__star-icon">
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="product-card__compare">
+                      <a href="#" class="product-card__compare-icon" title="Добавить в сравнение"></a>
+                    </div>
+                  </div>
+                  <div class="product-card__info-block">
+                    <div class="product-card__price">
+                      <span class="product-card__price-new">11 500 &#8381;</span>
+                    </div>
+                    <button class="btn btn--primary product-card__cart-btn" title="Добавить в корзину">В корзину</button>
+                  </div>
+                  <div class="label product-card__label">
+                    <div class="label--1">
+                      <img src="img/label-new.png" alt="" class="label__icon">
+                    </div>
+                    <div class="label--2">
+                      <img src="img/label-hit.png" alt="" class="label__icon">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="new-slider__item">
+            <div class="new-slider__column">
+              <div class="product-card">
+                <div class="product-card__inner">
+                  <img src="img/new-products-1.png" alt="Image" class="product-card__image">
+                </div>
+                <div class="product-card__info">
+                  <h5 class="product-card__name">
+                    <a href="#" class="product-card__link">Газовый котел Ariston Clas X System 32 FF с трехходовым клапаном и датчиком бойлера в комплекте</a>
+                  </h5>
+                  <div class="product-card__info-block">
+                    <div class="product-card__favorites">
+                      <a href="#" class="product-card__wishlist-icon" title="Добавить в избранное"></a>
+                    </div>
+                    <div class="product-card__reting">
+                      <ul class="reting reting__list">
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="product-card__compare">
+                      <a href="#" class="product-card__compare-icon" title="Добавить в сравнение"></a>
+                    </div>
+                  </div>
+                  <div class="product-card__info-block">
+                    <div class="product-card__price">
+                      <span class="product-card__price-new">9 500 &#8381;</span>
+                    </div>
+                    <button class="btn btn--primary product-card__cart-btn" title="Добавить в корзину">В корзину</button>
+                  </div>
+                  <div class="label product-card__label">
+                    <div class="label--1">
+                      <img src="img/label-stock.png" alt="" class="label__icon">
+                    </div>
+                    <div class="label--2">
+                      <img src="img/label-hit.png" alt="" class="label__icon">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.section new-products -->
+    <section class="section section--gray services" id="services">
+      <div class="container">
+        <div class="section-head section__head">
+          <div class="section-head__left">
+            <h2 class="section__title">Наши услуги</h2>
+          </div>
+        </div>
+        <div class="services__items">
+          <div class="services__item">
+            <img src="img/thumb-1.jpg" alt="" class="services__item-image">
+            <div class="services-content">
+              <h3 class="services-content__title">Монтажные и пуско-наладочные работы</h3>
+              <button class="btn btn--outline services-content__btn">Подробнее</button>
+            </div>
+          </div>
+          <div class="services__item">
+            <img src="img/thumb-2.jpg" alt="" class="services__item-image">
+            <div class="services-content">
+              <h3 class="services-content__title">Сервисное гарантийное и послегарантийное обслуживание</h3>
+              <button class="btn btn--outline services-content__btn">Подробнее</button>
+            </div>
+          </div>
+          <div class="services__item">
+            <img src="img/thumb-3.jpg" alt="" class="services__item-image">
+            <div class="services-content">
+              <h3 class="services-content__title">Ремонт оборудования</h3>
+              <button class="btn btn--outline services-content__btn">Подробнее</button>
+            </div>
+          </div>
+          <div class="services__item">
+            <img src="img/thumb-4.jpg" alt="" class="services__item-image">
+            <div class="services-content">
+              <h3 class="services-content__title">Проектирование</h3>
+              <button class="btn btn--outline services-content__btn">Подробнее</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.section services -->
+    <section class="section section--s hit-products" id="hit-products">
+      <div class="container">
+        <div class="section-head section__head section__head--s">
+          <div class="section-head__left">
+            <h2 class="section__title">Хиты продаж</h2>
+            <p class="section__subtitle">Наши покупатели выбирают</p>
+          </div>
+          <div class="section-head__right section-head__right--hit">
+            <button class="btn btn--outline section-head__btn">Все хиты</button>
+          </div>
+        </div>
+        <div class="hit-slider">
+          <div class="hit-slider__item">
+            <div class="hit-slider__column">
+              <div class="product-card">
+                <div class="product-card__inner">
+                  <img src="img/new-products-1.png" alt="Image" class="product-card__image">
+                </div>
+                <div class="product-card__info">
+                  <h5 class="product-card__name">
+                    <a href="#" class="product-card__link">Газовый котел Ariston Clas X System 32 FF с трехходовым клапаном и датчиком бойлера в комплекте</a>
+                  </h5>
+                  <div class="product-card__info-block">
+                    <div class="product-card__favorites">
+                      <a href="#" class="product-card__wishlist-icon" title="Добавить в избранное"></a>
+                    </div>
+                    <div class="product-card__reting">
+                      <ul class="reting reting__list">
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-half.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-o.png" alt="" class="reting__star-icon">
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="product-card__compare">
+                      <a href="#" class="product-card__compare-icon" title="Добавить в сравнение"></a>
+                    </div>
+                  </div>
+                  <div class="product-card__info-block">
+                    <div class="product-card__price">
+                      <span class="product-card__price-new">1 500 &#8381;</span>
+                    </div>
+                    <button class="btn btn--primary product-card__cart-btn" title="Добавить в корзину">В корзину</button>
+                  </div>
+                  <div class="label product-card__label">
+                    <div class="label--1">
+                      <img src="img/label-new.png" alt="" class="label__icon">
+                    </div>
+                    <div class="label--2">
+                      <img src="img/label-stock.png" alt="" class="label__icon">
+                    </div>
+                    <div class="label--3">
+                      <img src="img/label-hit.png" alt="" class="label__icon">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hit-slider__item">
+            <div class="hit-slider__column">
+              <div class="product-card">
+                <div class="product-card__inner">
+                  <img src="img/new-products-1.png" alt="Image" class="product-card__image">
+                </div>
+                <div class="product-card__info">
+                  <h5 class="product-card__name">
+                    <a href="#" class="product-card__link">Газовый котел Ariston Clas X System 24 FF</a>
+                  </h5>
+                  <div class="product-card__info-block">
+                    <div class="product-card__favorites">
+                      <a href="#" class="product-card__wishlist-icon" title="Добавить в избранное"></a>
+                    </div>
+                    <div class="product-card__reting">
+                      <ul class="reting reting__list">
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-o.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-o.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-o.png" alt="" class="reting__star-icon">
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="product-card__compare">
+                      <a href="#" class="product-card__compare-icon" title="Добавить в сравнение"></a>
+                    </div>
+                  </div>
+                  <div class="product-card__info-block">
+                    <div class="product-card__price">
+                      <span class="product-card__price-new">6 500 &#8381;</span>
+                    </div>
+                    <button class="btn btn--primary product-card__cart-btn" title="Добавить в корзину">В корзину</button>
+                  </div>
+                  <div class="label product-card__label">
+                    <div class="label--1">
+                      <img src="img/label-new.png" alt="" class="label__icon">
+                    </div>
+                    <div class="label--2">
+                      <img src="img/label-stock.png" alt="" class="label__icon">
+                    </div>
+                    <div class="label--3">
+                      <img src="img/label-hit.png" alt="" class="label__icon">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hit-slider__item">
+            <div class="hit-slider__column">
+              <div class="product-card">
+                <div class="product-card__inner">
+                  <img src="img/new-products-1.png" alt="Image" class="product-card__image">
+                </div>
+                <div class="product-card__info">
+                  <h5 class="product-card__name">
+                    <a href="#" class="product-card__link">Газовый котел Ariston Clas X System 32 FF с трехходовым клапаном и датчиком бойлера в комплекте</a>
+                  </h5>
+                  <div class="product-card__info-block">
+                    <div class="product-card__favorites">
+                      <a href="#" class="product-card__wishlist-icon" title="Добавить в избранное"></a>
+                    </div>
+                    <div class="product-card__reting">
+                      <ul class="reting reting__list">
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="product-card__compare">
+                      <a href="#" class="product-card__compare-icon" title="Добавить в сравнение"></a>
+                    </div>
+                  </div>
+                  <div class="product-card__info-block">
+                    <div class="product-card__price">
+                      <span class="product-card__price-new">9 500 &#8381;</span>
+                    </div>
+                    <button class="btn btn--primary product-card__cart-btn" title="Добавить в корзину">В корзину</button>
+                  </div>
+                  <div class="label product-card__label">
+                    <div class="label--1">
+                      <img src="img/label-stock.png" alt="" class="label__icon">
+                    </div>
+                    <div class="label--2">
+                      <img src="img/label-hit.png" alt="" class="label__icon">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hit-slider__item">
+            <div class="hit-slider__column">
+              <div class="product-card">
+                <div class="product-card__inner">
+                  <img src="img/new-products-1.png" alt="Image" class="product-card__image">
+                </div>
+                <div class="product-card__info">
+                  <h5 class="product-card__name">
+                    <a href="#" class="product-card__link">Газовый котел Ariston Clas X System 24 FF</a>
+                  </h5>
+                  <div class="product-card__info-block">
+                    <div class="product-card__favorites">
+                      <a href="#" class="product-card__wishlist-icon" title="Добавить в избранное"></a>
+                    </div>
+                    <div class="product-card__reting">
+                      <ul class="reting reting__list">
+                        <li class="reting__item">
+                          <img src="img/star-two-thirds.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-o.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-o.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-o.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-o.png" alt="" class="reting__star-icon">
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="product-card__compare">
+                      <a href="#" class="product-card__compare-icon" title="Добавить в сравнение"></a>
+                    </div>
+                  </div>
+                  <div class="product-card__info-block">
+                    <div class="product-card__price">
+                      <span class="product-card__price-new">11 500 &#8381;</span>
+                    </div>
+                    <button class="btn btn--primary product-card__cart-btn" title="Добавить в корзину">В корзину</button>
+                  </div>
+                  <div class="label product-card__label">
+                    <div class="label--1">
+                      <img src="img/label-new.png" alt="" class="label__icon">
+                    </div>
+                    <div class="label--2">
+                      <img src="img/label-hit.png" alt="" class="label__icon">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hit-slider__item">
+            <div class="hit-slider__column">
+              <div class="product-card">
+                <div class="product-card__inner">
+                  <img src="img/new-products-1.png" alt="Image" class="product-card__image">
+                </div>
+                <div class="product-card__info">
+                  <h5 class="product-card__name">
+                    <a href="#" class="product-card__link">Газовый котел Ariston Clas X System 32 FF с трехходовым клапаном и датчиком бойлера в комплекте</a>
+                  </h5>
+                  <div class="product-card__info-block">
+                    <div class="product-card__favorites">
+                      <a href="#" class="product-card__wishlist-icon" title="Добавить в избранное"></a>
+                    </div>
+                    <div class="product-card__reting">
+                      <ul class="reting reting__list">
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                        <li class="reting__item">
+                          <img src="img/star-icon.png" alt="" class="reting__star-icon">
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="product-card__compare">
+                      <a href="#" class="product-card__compare-icon" title="Добавить в сравнение"></a>
+                    </div>
+                  </div>
+                  <div class="product-card__info-block">
+                    <div class="product-card__price">
+                      <span class="product-card__price-new">9 500 &#8381;</span>
+                    </div>
+                    <button class="btn btn--primary product-card__cart-btn" title="Добавить в корзину">В корзину</button>
+                  </div>
+                  <div class="label product-card__label">
+                    <div class="label--1">
+                      <img src="img/label-stock.png" alt="" class="label__icon">
+                    </div>
+                    <div class="label--2">
+                      <img src="img/label-hit.png" alt="" class="label__icon">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.section hit-products -->
+    <section class="section section--gray articles">
+      <div class="container">
+        <div class="section-head section__head">
+          <div class="section-head__left">
+            <h2 class="section__title">Последние статьи</h2>
+            <p class="section__subtitle">Полезная информация по отоплению в вашем доме</p>
+          </div>
+          <div class="section-head__right section-head__right--articles">
+            <button class="btn btn--outline section-head__btn">Читать все</button>
+          </div>
+        </div>
+        <div class="articles-slider">
+          <div class="articles-slider__item">
+            <div class="articles-slider__column">
+              <div class="article-box">
+                <img src="img/article-1.jpg" alt="" class="article-box__image">
+                <h4 class="article-box__title">
+                  <a href="#" class="article-box__link">Монтаж водяного теплого пола</a>
+                </h4>
+                <div class="article-box__date">
+                  <time datetime="2019-02-23">23.02.19</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="articles-slider__item">
+            <div class="articles-slider__column">
+              <div class="article-box">
+                <img src="img/article-2.jpg" alt="" class="article-box__image">
+                <h4 class="article-box__title">
+                  <a href="#" class="article-box__link">Монтаж бойлера косвенного нагрева</a>
+                </h4>
+                <div class="article-box__date">
+                  <time datetime="2019-02-23">23.02.19</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="articles-slider__item">
+            <div class="articles-slider__column">
+              <div class="article-box">
+                <img src="img/article-1.jpg" alt="" class="article-box__image">
+                <h4 class="article-box__title">
+                  <a href="#" class="article-box__link">Монтаж электрического котла</a>
+                </h4>
+                <div class="article-box__date">
+                  <time datetime="2019-02-23">23.02.19</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="articles-slider__item">
+            <div class="articles-slider__column">
+              <div class="article-box">
+                <img src="img/article-2.jpg" alt="" class="article-box__image">
+                <h4 class="article-box__title">
+                  <a href="#" class="article-box__link">Монтаж бойлера косвенного нагрева</a>
+                </h4>
+                <div class="article-box__date">
+                  <time datetime="2019-02-23">23.02.19</time>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="articles-slider__item">
+            <div class="articles-slider__column">
+              <div class="article-box">
+                <img src="img/article-1.jpg" alt="" class="article-box__image">
+                <h4 class="article-box__title">
+                  <a href="#" class="article-box__link">Монтаж водяного теплого пола</a>
+                </h4>
+                <div class="article-box__date">
+                  <time datetime="2019-02-23">23.02.19</time>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.section articles -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="about__block">
+          <div class="about__content-block">
+            <h2 class="about__title">О нашем магазине</h2>
+            <p class="about__text">
+              Вы любите комфорт? Хотите чтобы в Вашем доме всегда было тепло и уютно?
+              <br>
+              <br>
+              Ищите экономичное, безопасное и эффективное отопление? Тогда Вам будет интересно...
+              <br>
+              <br>
+              Наша приоритетная задача – сделать ваш дом теплым и уютным. Именно поэтому мы являемся официальным партнером ведущих поставщиков и производителей отопительной и водонагревательной техники, комплектующих для отопления, водоснабжения, канализации.
+              <br>
+              <br>
+              Мы стараемся двигаться навстречу нашим заказчикам, расширяя ассортимент и предлагая только качественное и надежное оборудование. Оптимальный баланс цены и качества – гарантированное преимущество от сотрудничества с нами. Особое внимание мы уделяем выполнению договорённостей по своевременной доставке продукции и выполнению монтажных работ.
+              <br>
+              <br>
+              У нас индивидуальный подход и внимательное отношение к каждому клиенту. Поскольку
+              для компании очень важно, чтобы клиенты оставались довольны сотрудничеством.
+              <br>
+              <br>
+              "Название магазина" - профессиональное решение для Вас и вашего дома!
+            </p>
+          </div>
+          <div class="about__features-block">
+            <div class="features-box features-box__item">
+              <img src="img/features-icon-1.png" alt="" class="features-box__icon">
+              <h5 class="features-box__title"><strong>Индивидуальный подход</strong> и уважительное отношение к клиенту</h5>
+            </div>
+            <div class="features-box features-box__item">
+              <img src="img/features-icon-2.png" alt="" class="features-box__icon">
+              <h5 class="features-box__title"><strong>Отличные цены</strong> и удобная
+              система оплаты</h5>
+            </div>
+            <div class="features-box features-box__item">
+              <img src="img/features-icon-3.png" alt="" class="features-box__icon">
+              <h5 class="features-box__title"><strong>Широкий ассортимент</strong> и качество продукции</h5>
+            </div>
+            <div class="features-box features-box__item">
+              <img src="img/features-icon-4.png" alt="" class="features-box__icon">
+              <h5 class="features-box__title"><strong>Прозрачная схема работы</strong> и гарантия качества</h5>
+            </div>
+            <div class="features-box features-box__item">
+              <img src="img/features-icon-5.png" alt="" class="features-box__icon">
+              <h5 class="features-box__title"><strong>Кратчайшие сроки</strong> и бесплатная доставка</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /.section about -->
+    <section class="brands">
+      <div class="container">
+        <div class="brands__block">
+          <a href="#" class="brands__link">
+            <img src="img/brands-1.png" alt="" class="brands__image">
+          </a>
+          <a href="#" class="brands__link">
+            <img src="img/brands-2.png" alt="" class="brands__image">
+          </a>
+          <a href="#" class="brands__link">
+            <img src="img/brands-3.png" alt="" class="brands__image">
+          </a>
+          <a href="#" class="brands__link">
+            <img src="img/brands-4.png" alt="" class="brands__image">
+          </a>
+          <a href="#" class="brands__link">
+            <img src="img/braads-5.png" alt="" class="brands__image">
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- /.section brands -->
+  </main>
+  <footer class="footer" id="footer">
+    <div class="footer__content">
+      <div class="container">
+        <div class="footer__top-row">
+          <div class="footer__column footer__column--1">
+            <nav class="footer-menu">
+              <ul class="footer-menu__list">
+                <li class="footer-menu__item">
+                  <a href="#" class="footer-menu__link">Каталог продукции</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a href="#" class="footer-menu__link">Котлы отопления</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a href="#" class="footer-menu__link">Водонагреватели</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a href="#" class="footer-menu__link">Радиаторы</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a href="#" class="footer-menu__link">Обслуживание</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a href="#" class="footer-menu__link">Пусконаладочные работы</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__column footer__column--2">
+            <nav class="footer-menu">
+              <ul class="footer-menu__list">
+                <li class="footer-menu__item">
+                  <a href="#" class="footer-menu__link">Насосы</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a href="#" class="footer-menu__link">Теплый пол</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a href="#" class="footer-menu__link">Печи, камины</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a href="#" class="footer-menu__link">Комплектующие</a>
+                </li>
+                <li class="footer-menu__item">
+                  <a href="#" class="footer-menu__link">Монтаж</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__column footer__column--3">
+            <nav class="footer-menu">
+              <ul class="footer-menu__list">
+                <li class="footer-menu__item">
+                  <p class="footer-menu__info">
+                    <span class="footer-menu__graph">Пн-Пт 09:00 - 20:00</span>  
+                  </p>
+                </li>
+                <li class="footer-menu__item">
+                  <p class="footer-menu__info">
+                    <span class="footer-menu__graph">Сб-Вс 10:00 - 18:00</span> 
+                  </p>
+                </li>
+                <li class="footer-menu__item">
+                  <p class="footer-menu__info">
+                    <span class="footer-menu__address">г. Гродно ул. Суворова 109, офис 2</span>  
+                  </p>
+                </li>
+                <li class="footer-menu__item">
+                  <a href="tel:37(529)844-80-48" class="footer-menu__info">
+                    <span class="footer-menu__phone">+37 (529) 344-80-48</span>
+                  </a>
+                </li>
+                <li class="footer-menu__item">
+                  <a href="tel:37(529)844-80-48" class="footer-menu__info">
+                    <span class="footer-menu__phone">+37 (529) 344-80-48</span>
+                  </a>
+                </li>
+                <li class="footer-menu__item">
+                  <a href="#" class="footer-menu__call">Заказать обратный звонок</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__column footer__column--4">
+            <div class="payment-block">
+              <div class="payment-block__item">
+                <img src="img/mastercard-1.png" alt="" class="payment-block__image">
+              </div>
+              <div class="payment-block__item">
+                <img src="img/mastercard-2.png" alt="" class="payment-block__image">
+              </div>
+              <div class="payment-block__item">
+                <img src="img/webpay.png" alt="" class="payment-block__image">
+              </div>
+              <div class="payment-block__item">
+                <img src="img/visa-1.png" alt="" class="payment-block__image">
+              </div>
+              <div class="payment-block__item">
+                <img src="img/visa-2.png" alt="" class="payment-block__image">
+              </div>
+              <div class="payment-block__item">
+                <img src="img/belcard.png" alt="" class="payment-block__image">
+              </div>
+              <div class="payment-block__item">
+                <img src="img/raschet.png" alt="" class="payment-block__image">
+              </div>
+              <div class="payment-block__item">
+                <img src="img/asisst.png" alt="" class="payment-block__image">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer__copy">
+      <div class="container">
+        <div class="footer__bottom-row">
+          <span class="footer__text">Все права защищены © 2020</span>
+          <div class="social">
+            <nav class="social-nav">
+              <ul class="social-nav__list">
+                <li class="social-nav__item">
+                  <a href="#" class="social-nav__link--telegram-footer"></a>
+                </li>
+                <li class="social-nav__item">
+                  <a href="#" class="social-nav__link--viber-footer"></a>
+                </li>
+                <li class="social-nav__item">
+                  <a href="#" class="social-nav__link--whatsapp-footer"></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="scrollup">
+      <span class="scrollup__desc">Подняться вверх</span>
+      <a href="#" class="scrollup__link"></a>
+    </div>
+  </footer>
+  <!-- /.footer -->
+  
+  <!-- Подключаем JQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- Подключаем фаил JS скриптов, cторонних библиотек -->
+  <script src="js/libs.min.js"></script>
+  <!-- Подключаем JS файл для пользовательских скриптов проекта -->
+  <script src="js/main.js"></script>
+</body>
+</html>
